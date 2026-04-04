@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hust-chatbot/static/css/main.4a23d49f.css",
+    "main.js": "/hust-chatbot/static/js/main.aed26262.js",
+    "static/js/453.d6e4eb21.chunk.js": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js",
+    "index.html": "/hust-chatbot/index.html",
+    "main.4a23d49f.css.map": "/hust-chatbot/static/css/main.4a23d49f.css.map",
+    "main.aed26262.js.map": "/hust-chatbot/static/js/main.aed26262.js.map",
+    "453.d6e4eb21.chunk.js.map": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a23d49f.css",
+    "static/js/main.aed26262.js"
+  ]
+}
