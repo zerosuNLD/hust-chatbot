@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/hust-chatbot/static/css/main.4a23d49f.css",
-    "main.js": "/hust-chatbot/static/js/main.aed26262.js",
+    "main.css": "/hust-chatbot/static/css/main.601dd86e.css",
+    "main.js": "/hust-chatbot/static/js/main.c57bef8e.js",
     "static/js/453.d6e4eb21.chunk.js": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js",
+    "static/media/logo.jpg": "/hust-chatbot/static/media/logo.8ff1f86d991a55079fc1.jpg",
     "index.html": "/hust-chatbot/index.html",
-    "main.4a23d49f.css.map": "/hust-chatbot/static/css/main.4a23d49f.css.map",
-    "main.aed26262.js.map": "/hust-chatbot/static/js/main.aed26262.js.map",
+    "main.601dd86e.css.map": "/hust-chatbot/static/css/main.601dd86e.css.map",
+    "main.c57bef8e.js.map": "/hust-chatbot/static/js/main.c57bef8e.js.map",
     "453.d6e4eb21.chunk.js.map": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a23d49f.css",
-    "static/js/main.aed26262.js"
+    "static/css/main.601dd86e.css",
+    "static/js/main.c57bef8e.js"
   ]
 }
