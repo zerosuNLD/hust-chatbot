@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hust-chatbot/static/css/main.601dd86e.css",
-    "main.js": "/hust-chatbot/static/js/main.69d1faf1.js",
+    "main.css": "/hust-chatbot/static/css/main.370119eb.css",
+    "main.js": "/hust-chatbot/static/js/main.89ef91bf.js",
     "static/js/453.d6e4eb21.chunk.js": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js",
     "static/media/logo.jpg": "/hust-chatbot/static/media/logo.8ff1f86d991a55079fc1.jpg",
     "index.html": "/hust-chatbot/index.html",
-    "main.601dd86e.css.map": "/hust-chatbot/static/css/main.601dd86e.css.map",
-    "main.69d1faf1.js.map": "/hust-chatbot/static/js/main.69d1faf1.js.map",
+    "main.370119eb.css.map": "/hust-chatbot/static/css/main.370119eb.css.map",
+    "main.89ef91bf.js.map": "/hust-chatbot/static/js/main.89ef91bf.js.map",
     "453.d6e4eb21.chunk.js.map": "/hust-chatbot/static/js/453.d6e4eb21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.601dd86e.css",
-    "static/js/main.69d1faf1.js"
+    "static/css/main.370119eb.css",
+    "static/js/main.89ef91bf.js"
   ]
 }
