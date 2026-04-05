@@ -40,14 +40,33 @@
   background: #2a2d37;
 }
 
-.header-logo { flex-shrink: 0; }
+.header-logo{
+  width:32px;
+  height:32px;
+  object-fit:contain;
+}
+.header-info h1{
+  margin:0;
+  font-size:22px;
+}
 
+.header-info p{
+  width:100%;
+  margin:2px 0 0 42px;
+  font-size:13px;
+  color:#666;
+}
 .logo-icon {
   width: 40px;
   height: 40px;
 }
 
-.header-info { flex: 1; min-width: 0; }
+.header-info{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
 
 .header-info h1 {
   font-size: 16px;

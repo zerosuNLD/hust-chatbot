@@ -2,7 +2,7 @@
   "name": "hust-chatbot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zerosu204960.github.io/hust-chatbot",
+  "homepage": "https://zerosuNLD.github.io/hust-chatbot",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

@@ -120,13 +120,13 @@ export default function HustChatbot() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://lqdae-113-190-22-65.run.pinggy-free.link/answer", {
+      const res = await fetch("https://tmkov-113-190-22-65.run.pinggy-free.link/answer", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          query: input,
+          query: content,
           // Cắt lấy 5 phần tử cuối cùng của mảng messages
           chat_history: messages.slice(-5), 
         }),

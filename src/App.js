@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./HustChatbot.css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import logo from './logo.jpg';
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -17,10 +18,11 @@ function App() {
     setInput("");
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/answer", {
+      const res = await fetch("https://nonlocalized-unijugate-reatha.ngrok-free.dev/answer", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "ngrok-skip-browser-warning": "69420"
         },
         body: JSON.stringify({
           query: input,
@@ -51,6 +53,11 @@ function App() {
         {/* HEADER */}
         <div className="chat-header">
           <div className="header-info">
+            <img 
+              src={logo}
+              alt="HUST logo" 
+              className="header-logo"
+            />
             <h1>HUST Chatbot</h1>
             <p>Tư vấn quy chế đào tạo</p>
           </div>
@@ -104,7 +111,7 @@ function App() {
                     <span className="dot"></span>
                     <span className="dot"></span>
                   </div>
-                  <p>Đang tra cứu thông tin từ quy chế đào tạo HUST 2025. Quá trình này có thể mất vài phút ...</p>
+                  <p>Đang tra cứu thông tin...</p>
                 </div>
               </div>
             )}
